@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+td, h3{
+  text-align: left;
+  width: 350px;
+}
+
+.item .ant-input {
+  width: 100px;
+  margin: 10px;
+}
+
+.inventory {
+  width: 50vw;
+}
+.shopping-cart {
+  width: 50vw;
+}
+
+.content {
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+label {
+  text-align: left;
+}
+
+.delete-button {
+  margin-top: 10px;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.ant-card.item {
+  margin: 20px;
+  background: #F8F8FF;
+}
+
+.dollar-icon {
+  fontSize: 20px;
+}
+
+.item.order-summary {
+  background: #40E0D0;
+}
+
+.order-total td h4 {
+  color: red;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
